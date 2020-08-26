@@ -4,12 +4,9 @@ import mne
 from mne import io
 from mne.datasets import sample
 
-# tools for plotting confusion matrices
-from matplotlib import pyplot as plt
 
 import numpy as np
 import torch
-# torch.set_default_tensor_type(torch.cuda.FloatTensor)
 
 import model as md
 import utils as utils
